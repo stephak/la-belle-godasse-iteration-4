@@ -1,0 +1,30 @@
+<!DOCTYPE "html">
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'styles/style.css') }}">
+	<title>Page d'accueil des données des chaussures la Belle Godasse-Bretagne-v4</title>
+</head>
+<body>
+	<header>
+		<logo>
+				<img src="{{url_for('static', filename='images/sneakers-vector.svg')}}" width="100%">
+		</logo>
+		<nav class="nav" role="navigation">
+				<ul class="menu">
+					<li><a href="./index.html">accueil</a></li>
+					<li><a href="./achat.html">achats</a></li>
+					<li><a href="./liste-produits.html">produits</a></li>
+					<li><a href="./liste-magasins.html">magasins</a></li>
+					<li class="push"><a href="./profil.html">profil</a> </li>
+				</ul>	
+
+		</nav>
+	</header>
+	{% block content %}{% endblock %}
+	<footer>
+		<p> copyright - left </p>
+	</footer>
+</body>
+</html>

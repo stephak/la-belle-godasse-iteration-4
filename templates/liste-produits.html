@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+		<p id="fil_ariane">Liste des produits<p>
+			<table>
+					<tr class="en_tete"><td>Genre</td><td>Type</td><td>Prix</td></tr>
+					<tr><td>Chaussure de sport</td><td>H</td><td>60 euros</td></tr>
+					<tr><td>Botte</td><td>E</td><td>40 euros</td></tr>
+
+			</table>
+			<form action="./ajouter-produit.html" method="post">
+				<button>Ajouter modèle</button>
+			</form>
+{% endblock %}

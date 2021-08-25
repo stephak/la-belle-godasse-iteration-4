@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+		<p id="fil_ariane">Liste des magasins</p>
+			<table>
+					<tr class="en_tete"><td>Ville</td><td>Adresse</td></tr>
+					<tr><td>Rennes</td><td>Place de la mairie</td></tr>
+					<tr><td>Dinard</td><td>Le port</td></tr>
+			</table>
+			<form action="./ajouter-magasin.html" method="post">
+				<button>Ajouter Magasin</button>
+			</form>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+		<p id="fil_ariane">Nouvel achat</p>
+		<form class="formulaire" action="./nouvel-achat-done.html" method="post">
+			<label for="modele">modèle </label><input name="modele" id="modele" type="text"> </input> <br/>
+			<label for="genre">genre </label><input name="genre" id="genre" type="text"> </input><br/>
+			<label for="pointure">pointure</label><input name="pointure" id="pointure" type="text"> </input><br/>
+			<label for="prix">prix:</label><input name="prix" id="prix" type="text"> </input><br/>
+			<button type="submit">Valider achat</button>
+		</form>
+{% endblock %}

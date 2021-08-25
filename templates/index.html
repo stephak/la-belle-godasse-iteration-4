@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block content %}
+<p id="fil_ariane">accueil</p>
+	<h2>Extranet de la belle godasse</h2>
+	<section id="mot-president">
+			<div id="bloc1g">
+				<img src="{{url_for('static', filename='images/silhouette.png')}}" width="100%">
+			</div>
+			<div id="bloc1d">
+				<div id="bloc2">
+						<div id="bloc3">
+							<p>
+								Le mot du président
+							</p>
+							<p>
+								LoremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+						<div id="bloc4">
+							<img src="{{url_for('static', filename='images/president.png')}}" width="100%">
+						</div>
+
+				</div>
+				<div id="bloc5">
+					<p>
+						O laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<p class="signature">
+						Paul Kernavo
+					</p>
+				</div>
+			</div>
+		
+	</section>
+	{% endblock %}

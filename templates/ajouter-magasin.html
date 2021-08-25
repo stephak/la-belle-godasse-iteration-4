@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+	<main>
+		<p id="fil_ariane">Ajout de magasin</p>
+			<form class="formulaire" action="ajouter-magasin-done.html" method="post">
+				<label for="ville">Ville</label><input type="text" name="ville" id="Ville"><br/>
+				<label for="type">Adresse</label><input type="text" name="adresse" id="adresse"><br/>
+				<button type="submit">Enregistrer un nouveau magasin</button>
+			</form>
+
+	</main>
+    {% endblock %}

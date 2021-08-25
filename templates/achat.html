@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+		<p id="fil_ariane">Liste des dernières transactions<p>
+			<table>
+					<tr class="en_tete"><td>Genre</td><td>Type</td><td>Prix</td><td>Pointure</td><td>Ville</td><td>date_transaction</td></tr>
+					<tr><td>E</td><td>Basket</td><td>60 euros</td><td>28</td><td>Rennes</td><td>31/10/201</td>
+					<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					</tr>
+					<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					</tr>
+					<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					</tr>
+			</table>
+			<form action="./nouvel-achat.html" method="post">
+				<button>Ajouter achat</button>
+			</form>
+{% endblock %}

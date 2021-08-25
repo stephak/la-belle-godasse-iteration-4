@@ -1,0 +1,219 @@
+html, body {
+ margin:0;
+ padding:0;
+ min-height: 100vh;
+ min-width: 590px;
+ }
+
+
+
+
+table
+{
+	width: 80%;
+	margin-left: 30px;
+	background-color: orange;
+	padding: 10px;
+}
+
+.en_tete
+{
+	font-weight: bold;
+}
+
+tr
+{
+
+	border-top: 1px solid black;
+}
+
+button
+{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+html
+{
+	background-color: grey;
+	font-family: arial;
+	font-size: 1em;
+	font-weight:normal;
+	width: 80%;
+	margin: auto;
+    max-width: 960px;
+}
+
+header
+{
+	background-color: pink;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+logo
+{
+	width: 15%;
+	background-color: blue;
+}
+
+.nav
+{
+	width: 85%;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    background: green;
+    list-style:none;
+    display: flex; /*1*/
+    flex-direction : row; /*2*/
+    _justify-content: center; /*3*/
+    __align-content: center;
+    height: 40px;
+}
+
+
+.nav a {
+    padding-top: 0.5em;
+    display: block;
+    width: 100px;
+    height: 80%;
+    background-color: yellow;
+    text-align:center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: #00ace6;
+}
+.push {
+    margin-left: auto;
+}
+
+
+    
+h1
+{
+	font-size: 2em;
+	font-weight:normal;
+}
+
+h2
+{
+	margin-top: -20px;
+	font-size: 1.5em;
+	font-variant-caps: all-small-caps;
+	text-align: center;
+	font-weight:bold;
+}
+
+body
+{
+	background-color: green;
+	display: flex;
+    flex-direction: column;
+
+}
+
+#mot-president
+{	
+	
+	background-color: white;
+	display: flex;
+}
+
+#bloc1g
+{
+	background-color: pink;
+	width: 20%;
+}
+
+#bloc1d
+{
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+
+#bloc2
+{
+	background-color: red;
+	padding-left: 10px;
+	display: flex;
+}
+
+#bloc3
+{
+	padding-right: 10px;
+	width: 80%;
+}
+#bloc4
+{
+	width: 20%;
+	background-color: yellow;
+}
+
+#bloc5
+{
+	background-color: purple;
+	_width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+.signature
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+/* le fil d'ariane est unique par page, donc défini par un id*/
+#fil_ariane
+{
+	text-align: left;
+	font-style: italic;
+	padding-left: 10px;
+}
+#fil_ariane:before {
+    content: '>>';
+}
+
+
+.formulaire
+{
+	width: 80%;
+	margin-left: 30px;
+	background-color: orange;
+	padding: 10px;
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.formulaire button
+{
+   margin: 8px 0;
+}
+
+
+footer{
+	margin-top:auto;
+	background-color: pink;
+	text-align: center;
+	height: 40px;
+}

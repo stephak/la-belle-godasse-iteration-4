@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+		<p id="fil_ariane">Gestion du profil</p>
+		<form class="formulaire" action="./nouveau-profil-done.html" method="post">
+			<label for="prenom">nom </label><input name="prenom" id="prenom" type="text" value="Stéphane"></input> <br/>
+			<label for="nom">nom </label><input name="nom" id="nom" type="text" value="Hakni"></input> <br/>
+			<label for="email">e-mail </label><input name="email" id="email" type="text" value="stephane.hakni@gmail.com"></input> <br/>
+			<label for="password">mot de passe </label><input name="password" id="password" type="text" value="mediaschool4ever"></input> <br/>
+			<button type="submit">Enregistrer</button>
+		</form>
+{% endblock %}
